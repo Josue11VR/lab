@@ -1,0 +1,18 @@
+#container {
+    padding: 0.5%;
+    background-color: black;
+}
+#margenborder {
+    padding: 1%;
+    background-color: #D8D8D8;
+}
+
+
+p {
+    position: static;
+}
+
+#rigth {
+    position: relative;
+    left: 50px;
+}
