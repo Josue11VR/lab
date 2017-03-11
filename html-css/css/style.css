@@ -15,10 +15,9 @@ body{
 
 .relative {
     position: relative;
-
 }
 
-.fixedPosition{
+#fixedPosition{
     left: 100px;
     top: 70px;
 }
@@ -35,12 +34,22 @@ body{
 
 .absolute{
     position:absolute;
- 
+}
+#absolutePosition{
     top: 0; 
     right: 0;
 }
 
+
 .filled{
     background-color:gray;
+}
+
+.floatLeft{
+    float:left;
+}
+
+.floatRigth{
+    float: right;
 }
 
