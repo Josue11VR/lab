@@ -1,18 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
 #container {
     padding: 0.5%;
-    background-color: black;
-}
-#margenborder {
-    padding: 1%;
     background-color: #D8D8D8;
 }
 
-
-p {
+.static {
     position: static;
 }
 
-#rigth {
+
+
+.relative {
     position: relative;
-    left: 50px;
+
+}
+
+.left {
+    left: 20px; 
 }
