@@ -15,7 +15,7 @@ body {
 }
 
 header{
-    padding: 0 auto;
+   
 }
 
 .filled {
@@ -45,7 +45,7 @@ header{
 }
 #absolutePosition {
     top: 0;
-    right: 1%;
+    right: 1.1%;
 }
 
 /*---- fixed ----- */

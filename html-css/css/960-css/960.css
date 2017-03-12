@@ -649,5 +649,5 @@ body {
 .clearfix,
 .container_12,
 .container_16 {
-  zoom: 1;
+  /*zoom: 1;*/
 }
