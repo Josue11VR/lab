@@ -1,55 +1,64 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
 #container {
     padding: 0.5%;
-    background-color:beige;
+    background-color: beige;
     border: solid 5px;
+    float: left;
+    width: 98.5% ;
+}
+#content {
+    float: left;       
+}
+.filled {
+    background-color: gray;
 }
 
+/*-- static ----*/
 .static {
     position: static;
 }
 
+/*---- relative -----*/
 .relative {
     position: relative;
 }
+.left {
+    left: 20px;
+}
 
-#fixedPosition{
+/*---- absolute -----*/
+.absolute {
+    position: absolute;
+}
+#absolutePosition {
+    top: 0;
+    right: 0;
+}
+
+/*---- fixed ----- */
+#fixedPosition {
     left: 100px;
     top: 70px;
 }
-
-.left {
-    left: 20px; 
-}
-
-.fixed{
+.fixed {
     position: fixed;
     z-index: 1;
 }
 
-
-.absolute{
-    position:absolute;
-}
-#absolutePosition{
-    top: 0; 
-    right: 0;
+/*----- float ----*/
+.floatLeft {
+    float: left;
 }
 
 
-.filled{
-    background-color:gray;
+/* --- two colums ----*/
+.colum1of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+    
 }
-
-.floatLeft{
-    float:left;
+.column2of2 {
+    float: left;
+    margin: 10px;
+    margin-left: 15%;
 }
-
-.floatRigth{
-    float: right;
-}
-
