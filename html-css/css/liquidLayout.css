@@ -1,0 +1,53 @@
+/* --- fixed with layout ---*/
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+*{
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+#container {
+    background-color: beige;
+    border: solid 5px;
+    width: 100%;
+}
+#content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.absolute {
+    position: absolute;
+}
+.textCenter {
+    text-align: center;
+}
+.layoutAzure {
+    background-color: azure;
+    border: 1px gray solid;
+}
+nav ul li {
+    display: inline;
+    margin: 1%;
+}
+nav ul li a {
+    color: black;
+}
+.column1,
+.column2,
+.column3 {
+    width: 31.2%;
+    float: left;
+}
+footer {
+    float: left;
+    width: 98%;
+    
+}
+.floatLeft{
+    float: left;
+}

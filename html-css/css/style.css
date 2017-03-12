@@ -1,61 +1,75 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
 #container {
     padding: 0.5%;
-    background-color: beige;
-    border: solid 5px;
-    float: left;
-    width: 98.5% ;
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    border: solid black 2px;
+
+    width: 100%;
 }
 #content {
-    float: left;       
+    width: 98%;
 }
+
+header{
+    padding: 0 auto;
+}
+
 .filled {
     background-color: gray;
 }
 
 /*-- static ----*/
+
 .static {
     position: static;
 }
 
+
 /*---- relative -----*/
+
 .relative {
     position: relative;
 }
-.left {
+.left20 {
     left: 20px;
 }
 
 /*---- absolute -----*/
+
 .absolute {
     position: absolute;
 }
 #absolutePosition {
     top: 0;
-    right: 0;
+    right: 1%;
 }
 
 /*---- fixed ----- */
+
 #fixedPosition {
     left: 100px;
     top: 70px;
 }
 .fixed {
     position: fixed;
-    z-index: 1;
 }
 
 /*----- float ----*/
+
 .floatLeft {
     float: left;
 }
 
-
 /* --- two colums ----*/
+
 .colum1of2 {
     float: left;
     width: 620px;
     margin: 10px;
-    
 }
 .column2of2 {
     float: left;
@@ -64,11 +78,11 @@
 }
 
 /* --- three colums ----*/
-.colum1of3, .column2of3,.column3of3 {
+
+.colum1of3,
+.column2of3,
+.column3of3 {
     float: left;
     width: 300px;
     margin: 20px;
-    
 }
-
-

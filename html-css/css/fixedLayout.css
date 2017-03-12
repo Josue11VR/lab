@@ -1,0 +1,48 @@
+/* --- fixed with layout ---*/
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+* {
+    margin: 10px;
+    padding: 10px;
+}
+#container {
+    background-color: beige;
+    border: solid 5px;
+    width: 960px;
+}
+#content {
+    width: 960px;
+    margin: 0;
+    padding: 0;
+}
+.absolute {
+    position: absolute;
+}
+.textCenter {
+    text-align: center;
+}
+.layoutAzure {
+    background-color: azure;
+    border: 1px gray solid;
+}
+nav ul li {
+    display: inline;
+    margin: 1px;
+}
+nav ul li a {
+    color: black;
+}
+.column1,
+.column2,
+.column3 {
+    width: 278px;
+    margin-left: 10px;
+    float: left;
+}
+footer {
+    float: left;
+    width: 920px;
+}
