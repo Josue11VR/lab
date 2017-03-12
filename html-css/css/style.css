@@ -62,3 +62,13 @@
     margin: 10px;
     margin-left: 15%;
 }
+
+/* --- three colums ----*/
+.colum1of3, .column2of3,.column3of3 {
+    float: left;
+    width: 300px;
+    margin: 20px;
+    
+}
+
+
